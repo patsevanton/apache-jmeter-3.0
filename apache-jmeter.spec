@@ -4,11 +4,11 @@
 Summary:	JMeter for testing Web Applications
 Name:		apache-%{oname}
 Version:	3.0
-Release:	3
+Release:	1
 License:	ASL2.0
 Group:		Development/Other
 Url:		http://jmeter.apache.org/
-Source:		%{name}-%{version}_src.tgz
+Source:		https://archive.apache.org/dist/jmeter/source/%{name}-%{version}_src.tgz
 BuildRequires:	ant
 BuildRequires:	java-devel
 Requires:	java >= 1.6
